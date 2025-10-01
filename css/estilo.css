@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.servicios {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.servicios h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.caja {
+  background: #222222;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  max-width: 300px;
+  transition: 0.3s;
+}
+
+
+.caja i {
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: block;
+  color: #db6f0f;
+}
+
+.caja h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.caja p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.destacada {
+  background: #d3691f;
+}
